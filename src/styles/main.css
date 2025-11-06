@@ -46,3 +46,13 @@
 .menu-score h2:nth-child(2) {
   margin-top: 1rem;
 }
+body {
+    /* Preferível usar .cur (melhor suporte ao hotspot):
+       Substitua roof.cur pelo nome do seu arquivo */
+    cursor: url("../images/bomb.cur"), auto;
+
+    /* Se usar PNG e quiser definir o ponto ativo (hotspot),
+       ajuste os números (x y). Exemplo:
+       cursor: url("../images/bomb.png") 16 16, auto;
+    */
+}
